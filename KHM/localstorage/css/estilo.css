@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+ font-family: courier;
+}
+
+header{
+    background-color: #ffffff;
+    color :-moz-only-whitespace;
+    font-family: tahoma;
+    padding: 2rem;
+}
+
+footer{
+    background-color: #1900ff;
+    color: #ffffff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+}
+
+footer li{
+    list-style: none;
+}
+
+nav{
+    background-color: #0004ff;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+nav ul{
+display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 1rem;
+}
+li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    transition: color 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+li a:hover{
+
+    background-color: #2f00ff;
+}
+
+.container{
+width: 70vw;
+margin: auto;
+border: 2px solid #000000;
+padding: 0.5rem;
+border-radius: 1rem;
+margin-bottom: 2rem;
+display : flex;
+flex-direction:column;
+justify-items: center;
+justify-content: center;
+align-content: center;
+}
+
+.container h2{
+    background-color: #2600ff;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.container input{
+width: 62vw;
+margin-bottom: 0.5rem;
+padding: 1rem;
+border-radius: 1rem;
+outline: none;
+border: 2px solid #202fff;
+}
+
+.container input.haver{
+background-color: #ffffff;
+}
+
+.container button{
+margin-bottom: 1rem;
+padding: 0.5rem;
+width: 69vw;
+margin: auto;
+background-color: #0004ff;
+color: #fff;
+border-radius: 1rem;
+font-weight: bold;
+cursor: pointer;
+}
+
+.container button:haver{
+    background-color: #ebe7ec;
+}
